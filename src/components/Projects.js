@@ -19,11 +19,11 @@ export default class Projects extends React.Component {
                     <p className='desc'>Tracks current popular stocks in real-time</p>
                 </div>
                 <div className='proj-title'>
-                    <h2 className='proj'><a className='highlight' href='#'>Foo</a></h2>
+                    <h2 className='proj'><a className='highlight' href='https://upbeat-lalande-3f5ac0.netlify.com/blog/Introduction'>Blog</a></h2>
                 </div>
                 <div className='proj-desc'>
-                    <h2 className='proj'>Lorem</h2>
-                    <p className='desc'>Foo</p>
+                    <h2 className='proj'>React with JSON</h2>
+                    <p className='desc'>Displays more information about projects</p>
                 </div>
             </section>
         )
