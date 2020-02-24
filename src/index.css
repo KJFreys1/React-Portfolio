@@ -77,7 +77,7 @@ nav {
 
 .proj-title {
     width: 300px;
-    height: 125px;
+    height: 100px;
     border-left: 2px solid white;
     padding-left: 30px;
 }
@@ -89,11 +89,11 @@ nav {
 }
 
 .proj {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .desc {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 footer {
