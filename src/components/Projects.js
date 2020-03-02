@@ -21,7 +21,7 @@ export default class Projects extends React.Component {
                 </div>
 
                 <div className='proj-title'>
-                    <h2 className='proj'><a className='highlight' href='https://clever-bardeen-11e12a.netlify.com/'>Thought Shower</a></h2>
+                    <h2 className='proj'><a className='highlight' href='https://thought-shower.netlify.com/'>Thought Shower</a></h2>
                 </div>
                 <div className='proj-desc'>
                     <h2 className='proj'>MERN Stack</h2>
