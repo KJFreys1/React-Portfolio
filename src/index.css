@@ -92,8 +92,24 @@ nav {
     font-size: 30px;
 }
 
+.proj:hover {
+    cursor: pointer;
+}
+
 .desc {
     font-size: 16px;
+}
+
+.modal-hide {
+    display: none;
+}
+
+.modal-show {
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.507);
 }
 
 footer {
