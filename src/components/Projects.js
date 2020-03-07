@@ -12,18 +12,18 @@ export default class Projects extends React.Component {
         }
     }
 
-    handleModal(e, idx) {
-        e.preventDefault()
-        if (this.state.modal === 'modal-hide') {
-            this.setState({
-                modal: 'modal-show',
-                desc: data[idx]
-            })
-        } else {
-            this.setState({
-                modal: 'modal-hide'
-            })
-        }
+    showModal(idx) {
+        this.setState({
+            modal: 'modal-show',
+            desc: data[idx]
+        })
+    }
+
+    closeModal() {
+        this.setState({
+            modal: 'modal-hide',
+            desc: {}
+        })
     }
 
     render() {
@@ -57,14 +57,14 @@ export default class Projects extends React.Component {
                     <h2 className='proj'><a className='highlight' href='https://gatodolist.herokuapp.com/'>ToDo List</a></h2>
                 </div> */}
                 <div className='proj-title'>
-                    <h2 className='proj highlight' onClick={e => this.handleModal(e, 3)}>Save</h2>
+                    <h2 className='proj highlight' onClick={() => this.showModal(3)}>Save</h2>
                 </div>
                 <div className='proj-desc'>
                     <h2 className='proj'>Django Views and Python</h2>
                     <p className='desc'>To-do list with user auth using Django, PostgreSQL and Python</p>
                 </div>
                 <div className={this.state.modal}>
-                    <ProjDesc desc={this.state.desc}/>
+                    <ProjDesc desc={this.state.desc} closeModal={() => this.closeModal()} />
                 </div>
             </section>
         )
