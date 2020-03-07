@@ -115,18 +115,19 @@ nav {
 .inner-modal {
     width: 660px;
     height: 310px;
-    margin: 75px auto;
+    margin: 25px auto;
     padding: 20px;
     /* background-color: black; */
 }
 
 .modal-title {
-    font-size: 35px;
+    font-size: 40px;
     border-bottom: 2px solid white;
+    padding-bottom: 10px;
 }
 
 .modal-desc {
-    font-size: 25px;
+    font-size: 22px;
     border-left: 2px solid white;
     padding-left: 20px;
 }
@@ -137,6 +138,9 @@ nav {
 }
 
 .modal-link-single {
+    display: block;
+    width: max-content;
+    margin: 10px 0;
     transition: font-size .2s;
 }
 

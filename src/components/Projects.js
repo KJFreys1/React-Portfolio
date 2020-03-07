@@ -30,7 +30,7 @@ export default class Projects extends React.Component {
         return (
             <section className='box flex'>
                 <div className='proj-title'>
-                    <h2 className='proj'><a className='highlight' href='https://wonderful-almeida-16ee2b.netlify.com'>DevSync</a></h2>
+                    <h2 className='proj highlight' onClick={() => this.showModal(0)}>DevSync</h2>
                 </div>
                 <div className='proj-desc'>
                     <h2 className='proj'>MERN Stack with Socket.io</h2>
@@ -38,7 +38,7 @@ export default class Projects extends React.Component {
                 </div>
 
                 <div className='proj-title'>
-                    <h2 className='proj'><a className='highlight' href='https://kjfreys1.github.io/Arcade/'>Arcade</a></h2>
+                    <h2 className='proj highlight' onClick={() => this.showModal(1)}>Arcade</h2>
                 </div>
                 <div className='proj-desc'>
                     <h2 className='proj'>JavaScript DOM Manipulation Games</h2>
@@ -46,23 +46,21 @@ export default class Projects extends React.Component {
                 </div>
 
                 <div className='proj-title'>
-                    <h2 className='proj'><a className='highlight' href='https://thought-shower.netlify.com/'>Thought Shower</a></h2>
+                    <h2 className='proj highlight' onClick={() => this.showModal(2)}>Thought Shower</h2>
                 </div>
                 <div className='proj-desc'>
                     <h2 className='proj'>MERN Stack</h2>
                     <p className='desc'>Social media mock for developers using Bootstrap CSS</p>
                 </div>
 
-                {/* <div className='proj-title'>
-                    <h2 className='proj'><a className='highlight' href='https://gatodolist.herokuapp.com/'>ToDo List</a></h2>
-                </div> */}
                 <div className='proj-title'>
                     <h2 className='proj highlight' onClick={() => this.showModal(3)}>Save</h2>
                 </div>
                 <div className='proj-desc'>
-                    <h2 className='proj'>Django Views and Python</h2>
+                    <h2 className='proj'>Django Templates and Python</h2>
                     <p className='desc'>To-do list with user auth using Django, PostgreSQL and Python</p>
                 </div>
+                
                 <div className={this.state.modal}>
                     <ProjDesc desc={this.state.desc} closeModal={() => this.closeModal()} />
                 </div>

@@ -1,28 +1,29 @@
 [
     {
-        "title": "",
-        "desc": "",
-        "deploy": "",
-        "github": "",
+        "title": "DevSync",
+        "desc": "This is a mock-up of the developer-friendly communication app, Slack. I used the MERN stack with user auth, custom CSS, and Socket.io to broadcast messages to other users.",
+        "deploy": "https://wonderful-almeida-16ee2b.netlify.com/login",
+        "github": "https://github.com/KJFreys1/DevSync_Chatroom",
         "video": ""
     },
     {
-        "title": "",
-        "desc": "",
-        "deploy": "",
-        "github": "",
+        "title": "Arcade",
+        "desc": "This is a recreation of the classic memory game Simon, Snake, and Bomberman using vanilla JavaScript and DOM manipulation.",
+        "deploy": "https://kjfreys1.github.io/Arcade/",
+        "github": "https://github.com/KJFreys1/Arcade",
         "video": ""
     },
     {
-        "title": "",
-        "desc": "",
-        "deploy": "",
-        "github": "",
-        "video": ""
+        "title": "Thought Shower",
+        "desc": "This is a forum-inspired social media app for developers to share ideas using the MERN stack with user auth and Bootstrap CSS. Made as part of a team with two other developers following best-practice git workflow.",
+        "deploy": "https://thought-shower.netlify.com/",
+        "github": "https://github.com/IntegerZeroSF/Thought_Shower",
+        "backend": "https://github.com/KJFreys1/thought-shower-backend",
+        "video": "https://www.youtube.com/watch?v=U8e0S_PaDWA&t=3s"
     },
     {
         "title": "Save",
-        "desc": "To-do list application with user auth created with Django templates, Python, and PostgreSQL.",
+        "desc": "This is a to-do list application with user auth created with Django templates, Python, and PostgreSQL. Made as part of a team with three other developers via sprints.",
         "deploy": "",
         "github": "https://github.com/KJFreys1/Save",
         "video": ""
